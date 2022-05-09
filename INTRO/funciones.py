@@ -31,7 +31,7 @@ print(salida)
 #==============================
 # Funcion con argumento
 #==============================
-def sali2(nombre):
+def salu2(nombre):
     """ESta funcion te saluda por tu nombre"""
     print("Holaaaa", nombre,"!")
 salu2("Alex")
@@ -53,7 +53,7 @@ saludos(a)
 #==========================================
 def saludos_multiples(nombre1,nombre2,nombre3):
     """Esta funcion saluda a 3 personas al mismo tiempo"""
-    print("Hola ",nombre1",",nombre2"y",nombre3)
+    print("Hola ",nombre1,",",nombre2,"y",nombre3)
 saludos_multiples("Alex","Paco","Jorge")
 
 #==============================================
@@ -72,7 +72,7 @@ def muchos_saludos(*nombres):
             print(nombres[i])
         else: 
             # Cualquier otro nombre
-            print(nombres[i]), end=", ")
+            print(nombres[i], end=", ")
         i+=1
 
 muchos_saludos("Bosco","Angel","David","Alex","Mili")
@@ -124,7 +124,7 @@ print(total)
 # Calculo lambda
 # nombre de la funcion = lambda variable : funcion
 #=====================================================
-x al cuadrado = lambda x : x * x
+x_al_cuadrado = lambda x : x * x
 al = x_al_cuadrado(5)
 print(al)
 
